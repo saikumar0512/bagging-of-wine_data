@@ -3,7 +3,7 @@ from sklearn.ensemble import BaggingClassifier
 from sklearn.tree import DecisionTreeClassifier 
 import pandas as pd 
   
-url = "/home/debomit/Downloads/wine_data.xlsx"
+url = "wine_data.xlsx"
 dataframe = pd.read_excel(url) 
 arr = dataframe.values 
 X = arr[:, 1:14] 
